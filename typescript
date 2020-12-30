@@ -1,0 +1,164 @@
+Script started on Wed Dec 30 15:09:42 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ var x = 1
+bash: var: command not found
+bash-3.2$ int x  =[K[K= 1
+bash: int: command not found
+bash-3.2$ x = 1
+x
+console.bash-3.2$ x
+console.logbash-3.2$ console.log(x)
+bash: syntax error near unexpected token `x'
+bash-3.2$ console.log(x)[C[C[C[C[C[C[C[C[C[C[Knod[K[K[Kls
+Blocks$Piece.class	Tetris.class		script.js
+Blocks.class		Tetris.java		style.css
+Blocks.java		app.js			test.py
+README.md		index.html		typescript
+bash-3.2$ node script.js 
+[33m23[39m
+bash-3.2$ node script.js 
+/Users/anminggu/Desktop/Computer Science/Tetris/script.js:4
+    alert('Hi ' + name)
+    ^
+
+ReferenceError: alert is not defined
+    at showAlert (/Users/anminggu/Desktop/Computer Science/Tetris/script.js:4:5)
+    at Object.<anonymous> (/Users/anminggu/Desktop/Computer Science/Tetris/script.js:7:1)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1102:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:967:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:807:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+bash-3.2$ node script.js 
+/Users/anminggu/Desktop/Computer Science/Tetris/script.js:5
+    alert('Hi ' + name)
+    ^
+
+ReferenceError: alert is not defined
+    at showAlert (/Users/anminggu/Desktop/Computer Science/Tetris/script.js:5:5)
+    at Object.<anonymous> (/Users/anminggu/Desktop/Computer Science/Tetris/script.js:8:1)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1102:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:967:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:807:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+bash-3.2$ node script.js 
+/Users/anminggu/Desktop/Computer Science/Tetris/script.js:6
+        alert(x)
+        ^
+
+ReferenceError: alert is not defined
+    at findX (/Users/anminggu/Desktop/Computer Science/Tetris/script.js:6:9)
+    at Object.<anonymous> (/Users/anminggu/Desktop/Computer Science/Tetris/script.js:10:1)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1102:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:967:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:807:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+bash-3.2$ node script.js 
+/Users/anminggu/Desktop/Computer Science/Tetris/script.js:1
+window.alert = myAlertFunction
+^
+
+ReferenceError: window is not defined
+    at Object.<anonymous> (/Users/anminggu/Desktop/Computer Science/Tetris/script.js:1:1)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1102:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:967:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:807:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+bash-3.2$ node script.js 
+/Users/anminggu/Desktop/Computer Science/Tetris/script.js:4
+    d = document;
+    ^
+
+ReferenceError: document is not defined
+    at myAlertFunction (/Users/anminggu/Desktop/Computer Science/Tetris/script.js:4:5)
+    at findX (/Users/anminggu/Desktop/Computer Science/Tetris/script.js:40:9)
+    at Object.<anonymous> (/Users/anminggu/Desktop/Computer Science/Tetris/script.js:44:1)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1102:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:967:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:807:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+bash-3.2$ node script.js 
+/Users/anminggu/Desktop/Computer Science/Tetris/script.js:8
+console.log(tetminoes)
+            ^
+
+ReferenceError: tetminoes is not defined
+    at Object.<anonymous> (/Users/anminggu/Desktop/Computer Science/Tetris/script.js:8:13)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1102:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:967:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:807:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+bash-3.2$ node script.js 
+[ [32m'firstShape'[39m, [32m'secondShape'[39m, [32m'thirdShape'[39m, [32m'fourthShape'[39m ]
+bash-3.2$ node script.js 
+firstShape
+bash-3.2$ node script.js 
+[33m3[39m
+bash-3.2$ node script.js 
+/Users/anminggu/Desktop/Computer Science/Tetris/script.js:5
+showAlert(Emily)
+          ^
+
+ReferenceError: Emily is not defined
+    at Object.<anonymous> (/Users/anminggu/Desktop/Computer Science/Tetris/script.js:5:11)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1102:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:967:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:807:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+bash-3.2$ node script.js 
+/Users/anminggu/Desktop/Computer Science/Tetris/script.js:5
+showAlert(Emily)
+          ^
+
+ReferenceError: Emily is not defined
+    at Object.<anonymous> (/Users/anminggu/Desktop/Computer Science/Tetris/script.js:5:11)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1102:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:967:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:807:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+bash-3.2$ node script.js 
+/Users/anminggu/Desktop/Computer Science/Tetris/script.js:5
+showAlert(Emily)
+          ^
+
+ReferenceError: Emily is not defined
+    at Object.<anonymous> (/Users/anminggu/Desktop/Computer Science/Tetris/script.js:5:11)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1102:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:967:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:807:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+bash-3.2$ node script.js 
+Emily, you have been alerted
+bash-3.2$ node script.js 
+Emily, you have been alerted
+bash-3.2$ ls
+Blocks$Piece.class	Tetris.class		script.js
+Blocks.class		Tetris.java		style.css
+Blocks.java		app.js			test.py
+README.md		index.html		typescript
+bash-3.2$ ls
+README.md	index.html	style.css
+app.js		script.js	typescript
+bash-3.2$ ls[K[Kpwd
+/Users/anminggu/Desktop/Computer Science/Tetris
+bash-3.2$ 
