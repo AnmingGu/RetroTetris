@@ -1,4 +1,4 @@
 # Tetris
-Implementation of Tetris game in Java.
+Implementation of Tetris game in JavaScript based on a tutorial from https://github.com/kubowania/Tetris-Basic.
 
-test.py contains a PyGame variation found on the internet.
+Updated with additional stuff.
