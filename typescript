@@ -161,4 +161,132 @@ README.md	index.html	style.css
 app.js		script.js	typescript
 bash-3.2$ ls[K[Kpwd
 /Users/anminggu/Desktop/Computer Science/Tetris
+bash-3.2$ git add .
+bash-3.2$ git commit -m
+error: switch `m' requires a value
+bash-3.2$ git commit -m '[K'Done for now'
+[main 6a6bbca] Done for now
+ 10 files changed, 652 insertions(+), 555 deletions(-)
+ delete mode 100644 Blocks$Piece.class
+ delete mode 100644 Blocks.class
+ delete mode 100644 Blocks.java
+ delete mode 100644 Tetris.class
+ delete mode 100644 Tetris.java
+ create mode 100644 app.js
+ create mode 100644 index.html
+ create mode 100644 style.css
+ delete mode 100644 test.py
+ create mode 100644 typescript
+bash-3.2$ git push -u o[K[K[K[K[K[K[K[K[Kcheck[K[Kk[Kckout
+M	typescript
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+bash-3.2$ git ch[K[Kpush -u origin main
+To https://github.com/AnmingGu/Tetris.git
+ [31m! [rejected]       [m main -> main (fetch first)
+[31merror: failed to push some refs to 'https://github.com/AnmingGu/Tetris.git'
+[m[33mhint: Updates were rejected because the remote contains work that you do[m
+[33mhint: not have locally. This is usually caused by another repository pushing[m
+[33mhint: to the same ref. You may want to first integrate the remote changes[m
+[33mhint: (e.g., 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+bash-3.2$ git pull
+remote: Enumerating objects: 5, done.[K
+remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0[K
+[KUnpacking objects:  33% (1/3)[KUnpacking objects:  66% (2/3)[KUnpacking objects: 100% (3/3)[KUnpacking objects: 100% (3/3), done.
+From https://github.com/AnmingGu/Tetris
+   1e8d987..66ed5c2  main       -> origin/main
+hint: Waiting for your editor to close the file... [?1049h[>4;2m[?1h=[?2004h[1;8r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[8;1H"~/Desktop/Computer Science/Tetris/.git/MERGE_MSG" 6L, 294C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HMerge branch 'main' of https://github.com/AnmingGu/Tetris into main
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+[94m~                                                                                     [1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p
+
+
+
+
+[5;1H[4;1H
+
+[5;70H[6;13H
+
+
+[m[?2004l[?1l>[>4;m[?1049l
+[1]+  Stopped                 git pull
+bash-3.2$ git push
+To https://github.com/AnmingGu/Tetris.git
+ [31m! [rejected]       [m main -> main (non-fast-forward)
+[31merror: failed to push some refs to 'https://github.com/AnmingGu/Tetris.git'
+[m[33mhint: Updates were rejected because the tip of your current branch is behind[m
+[33mhint: its remote counterpart. Integrate the remote changes (e.g.[m
+[33mhint: 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+bash-3.2$ git pul[K[K[K[K[K[K[Kgit push[K[K[K[K[K[K[K[Kgit commit -m
+error: switch `m' requires a value
+bash-3.2$ git commit -m 'Update'
+[main a60ab36] Update
+bash-3.2$ git remote add https://github.com/AnmingGu/RetroTetris.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+bash-3.2$ git remote add https://github.com/AnmingGu/RetroTetris.git[C[C[C[C[C[C[C[C[C[C[Kgit remote add origin https://github.com/AnmingGu/RetroTetris.git
+fatal: remote origin already exists.
+bash-3.2$ git remot[K[Kte[K[Kote -v
+origin	https://github.com/AnmingGu/Tetris.git (fetch)
+origin	https://github.com/AnmingGu/Tetris.git (push)
+bash-3.2$ git remote https://github.com/AnmingGu/RetroTetris.git origin
+error: Unknown subcommand: https://github.com/AnmingGu/RetroTetris.git
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+bash-3.2$ git remote set-url origin https://github.com/AnmingGu/RetroTetris.git
+bash-3.2$ git remote
+origin
+bash-3.2$ git remote -v
+origin	https://github.com/AnmingGu/RetroTetris.git (fetch)
+origin	https://github.com/AnmingGu/RetroTetris.git (push)
+bash-3.2$ git commit -m'[K 'u[KUpdate'
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	[31mmodified:   typescript[m
+
+no changes added to commit
+bash-3.2$ git push -u origin mi[Kain
+[KEnumerating objects: 10, done.
+[KCounting objects:  10% (1/10)[KCounting objects:  20% (2/10)[KCounting objects:  30% (3/10)[KCounting objects:  40% (4/10)[KCounting objects:  50% (5/10)[KCounting objects:  60% (6/10)[KCounting objects:  70% (7/10)[KCounting objects:  80% (8/10)[KCounting objects:  90% (9/10)[KCounting objects: 100% (10/10)[KCounting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+[KCompressing objects:  12% (1/8)[KCompressing objects:  25% (2/8)[KCompressing objects:  37% (3/8)[KCompressing objects:  50% (4/8)[KCompressing objects:  62% (5/8)[KCompressing objects:  75% (6/8)[KCompressing objects:  87% (7/8)[KCompressing objects: 100% (8/8)[KCompressing objects: 100% (8/8), done.
+[KWriting objects:  12% (1/8)[KWriting objects:  25% (2/8)[KWriting objects:  37% (3/8)[KWriting objects:  50% (4/8)[KWriting objects:  62% (5/8)[KWriting objects:  75% (6/8)[KWriting objects:  87% (7/8)[KWriting objects: 100% (8/8)[KWriting objects: 100% (8/8), 3.50 KiB | 1.17 MiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), done.[K
+To https://github.com/AnmingGu/RetroTetris.git
+   66ed5c2..a60ab36  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
 bash-3.2$ 
