@@ -5,8 +5,8 @@ Updated with additional stuff.
 
 
 # 12/31/20
+
 Added lines and levels, along with speed changes. 
 Pressing the reload button causes bug that makes the drop speed increase.
 The game needs more logic checking when spinning so two tetriminos don't occupy the same space.
-=======
 
