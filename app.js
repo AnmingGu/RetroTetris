@@ -8,10 +8,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     let nextRandom = 0
     let timerId
     let score = 0
-      // [jTetromino, lTetromino, sTetromino, zTetromino, tTetromino, oTetromino, iTetromino]
     const colors = ['orange', 'blue', 'green', 'red', 'purple', 'yellow', 'cyan']
-
-
 
 
     // put important stuff here
@@ -24,14 +21,6 @@ document.addEventListener('DOMContentLoaded', () =>{
     // levels
     // allow stickiness for spins
     
-
-
-
-
-
-
-
-
 
     // Tetrominos (make sure they spawn the correct way, spawn in the correct location)
     const jTetromino = [
