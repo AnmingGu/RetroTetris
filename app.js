@@ -12,9 +12,11 @@ document.addEventListener('DOMContentLoaded', () =>{
     let nextRandom = 0
     let timerId
     let score = 0
+
     let lines = 0
     
     const colors = ['orange', 'blue', 'chartreuse', 'red', 'purple', 'yellow', 'cyan']
+
 
     // make the Tetromino move down every time period
     // something with level too
@@ -23,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     let level = startLevel
     changeSpeed()
 
+
     var timeFrame = (1000 / 60) * frame // frame timer, default (at level 0)
     
 
@@ -30,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () =>{
 
 
     //VERY BUGGY!!!
+
     // put important stuff here
     // more query selectors
     // move around stuff
@@ -38,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     // levels
     // allow stickiness for spins
 
+    
     /***  BUTTONS AND CONTROLS ***/
     startButton.addEventListener('click', () =>{
         if (timerId){
@@ -309,6 +314,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
     }
 
+
     function reload(){
         scoreDisplay.innerHTML = 0
         score = 0
@@ -361,3 +367,4 @@ document.addEventListener('DOMContentLoaded', () =>{
     }
 
 })
+
